@@ -1,0 +1,128 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+font-family: 'Rock Salt', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Walter Turncoat', cursive;
+ */
+
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+ background: #f5f5f5;
+}
+.navbar-brand{
+  font-family: 'Sancreek', cursive;
+}
+.nav-link{
+  font-family: 'Roboto', San Serif;
+}
+h1{
+  font-family: 'Rock Salt', cursive;
+  font-size:6.2em;
+}
+h3{
+font-family: 'Nanum Brush Script', cursive;
+}
+
+.collection-thumb{
+  margin:0;
+  padding:0;
+}
+h5{
+  font-family: 'Roboto', San Serif;
+}
+.collection-desc{
+  background-color:#800000;
+	color:#ffffff;
+	height:0;
+  width:0;
+  /*display:none;*/
+}
+.collection-desc h4, p{
+  display:none;
+}
+
+.collection-img:hover .collection-desc{
+  /*display:block;*/
+    color:#ffffff;
+   height: 70%;
+	 background:#000000bf;
+	 position: absolute;
+	 width: 100%;
+	 padding: 5em;
+	 top: 15%;
+	 border-bottom-left-radius: 0;
+	transition:0.5s ;
+  
+}
+
+.collection-img:hover .collection-desc h4, p{
+    display:block;
+    
+  }
+.fa-twitter{
+  color:black;
+}
+.fa-circle-thin{
+  color:black;
+}
+.fa-github{
+  color:black;
+}
+.fa-linkedin{
+  color:black;
+}
+.fa-facebook{
+  color:black;
+}
+.fa-instagram{
+  color:black;
+}
+
+.upper-footer{
+  padding:5%;
+}
+
+hr{
+  border-color:white;
+}
+#home{
+	
+  border-radius:0;
+ margin-bottom:0;
+}
+.footer{
+  background-color:black;
+}
+
+.white-circle-thin{
+  color:white;
+}
+.bottom-footer{
+  padding-bottom:5%;
+}
+.bg-headline{
+  
+  border-top:1px solid white;
+  border-bottom:1px solid white;
+  
+}
+
+@media screen and (max-width: 800px) {
+  .carousel-caption {
+    display:none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sub-head {
+   visibility:hidden;
+  }
+}
+#about{
+  padding:5%;
+}
